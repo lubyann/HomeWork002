@@ -5,13 +5,17 @@
 // 782 -> 8
 // 918 -> 1
 
-
-//Console.Clear();
-
 Console.Write("Enter a number: ");
 int number = int.Parse(Console.ReadLine()!);
 
 //int number = new Random().Next(100, 1000);
 
+if(number < 100 || number >= 1000)
+{
+    Console.WriteLine("no");
+}
+else
+{
 int result = number % 100 / 10;
 Console.WriteLine($"{number} -> {result}");
+}
