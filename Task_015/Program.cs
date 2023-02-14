@@ -14,6 +14,6 @@ if (number == 6 || number == 7)
 }
 else
 {
-       Console.WriteLine($"{number} -> no");
- 
+    Console.WriteLine($"{number} -> no");
+
 }
