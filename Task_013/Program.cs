@@ -17,5 +17,5 @@ if (number < 100)
 }
 else 
 {
-    Console.WriteLine($"{number} -> {number.ToString()[2] : '-'}");
+    Console.WriteLine($"{number} -> {number.ToString()[2]}");
 }
